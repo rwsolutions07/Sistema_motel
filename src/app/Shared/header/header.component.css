@@ -1,0 +1,38 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+a{
+    color: black;
+}
+
+.bg-dark {
+    background-color: #ffffff!important;
+}
+
+.nav{
+    display: flex;
+}
+
+@media (min-width: 680px){
+.navbar-expand-md .navbar-toggler {
+    display: none;
+    
+}}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.form-inline{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    margin-left: 10px;
+}
